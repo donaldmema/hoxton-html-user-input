@@ -20,6 +20,7 @@
   border: 1px solid white;
   border-radius: 10px;
   height: 100%;
+  width: 400px;
   padding: 30px;
   gap: 20px;
   position: relative;
@@ -52,4 +53,22 @@ select,
 textarea {
   border: none;
   outline: transparent;
+  border-bottom: 1px solid #f3dff7;
+  font-size: 18px;
+}
+
+label {
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-button {
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    background-image: linear-gradient(to right, #bb58d6 , #5f9fec);
+    color: aliceblue;
 }
