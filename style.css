@@ -55,6 +55,7 @@ textarea {
   outline: transparent;
   border-bottom: 1px solid #f3dff7;
   font-size: 18px;
+  padding-bottom: 10px;
 }
 
 label {
@@ -66,9 +67,10 @@ textarea {
 }
 
 .submit-button {
-    border: none;
-    border-radius: 20px;
-    height: 40px;
-    background-image: linear-gradient(to right, #bb58d6 , #5f9fec);
-    color: aliceblue;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  background-image: linear-gradient(to right, #bb58d6, #5f9fec);
+  color: aliceblue;
+  font-weight: bold;
 }

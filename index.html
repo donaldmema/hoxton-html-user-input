@@ -9,16 +9,27 @@
   </head>
   <body class="body">
     <div class="container">
-      <h1>Hey There!</h1>
+      <h1>Hey there!</h1>
       <form class="user-form">
         <label for="name">What's your name?</label>
-        <input id="name" type="text" placeholder="Enter your name" />
+        <input
+          id="name"
+          type="text"
+          placeholder="Enter your name"
+          required
+          minlength="5"
+        />
 
         <label for="email">What's your email address?</label>
-        <input id="email" type="email" placeholder="Enter your email address" />
+        <input
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          required
+        />
 
         <label for="services">What services are you looking for?</label>
-        <select name="service" id="services">
+        <select name="service" id="services" required>
           <option value="">Choose a service</option>
           <option>SEO Optimization</option>
           <option>Digital Marketing</option>
@@ -26,27 +37,28 @@
         </select>
 
         <label for="budget">What is your budget?</label>
-        <select name="service" id="services">
+        <select name="budget" id="budget" required>
           <option value="">Select budget</option>
           <option>$ 1250</option>
           <option>$ 1750</option>
           <option>$ 2500</option>
         </select>
 
-        <label for="">Anything else you'd like to tell us?</label>
+        <label for="message">Anything else you'd like to tell us?</label>
         <textarea
-          name=""
-          id=""
-          rows="4"
+          name="message"
+          id="message"
+          rows="3"
           placeholder="Your message here..."
+          minlength="10"
         ></textarea>
 
         <label>
           I agree with the T&Cs.
-          <input type="checkbox" />
+          <input type="checkbox" required />
         </label>
 
-        <button class="submit-button">Submit</button>
+        <button class="submit-button">Submit →</button>
       </form>
     </div>
   </body>
