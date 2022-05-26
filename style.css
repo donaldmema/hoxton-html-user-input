@@ -7,16 +7,49 @@
 }
 
 .body {
-    display: grid;
-    /* place-content: center; */
+  display: grid;
+  place-items: center;
+  background-color: #f9f2fe;
+  margin: 15vh;
 }
 
 .container {
   display: grid;
-  /* background-color: aquamarine; */
+  height: 600px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 100%;
+  padding: 30px;
+  gap: 20px;
+  position: relative;
+}
+
+.container::before {
+  content: "";
+  background: linear-gradient(90deg, #788de6, #a469db);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  filter: blur(20px);
 }
 
 .user-form {
   display: grid;
-  gap: 10px;
+  gap: 20px;
+}
+
+h1 {
+  justify-self: center;
+  background: -webkit-linear-gradient(#788de6, #a469db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input,
+select,
+textarea {
+  border: none;
+  outline: transparent;
 }
