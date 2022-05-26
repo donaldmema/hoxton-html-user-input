@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+}
+
+.body {
+    display: grid;
+    /* place-content: center; */
+}
+
+.container {
+  display: grid;
+  /* background-color: aquamarine; */
+}
+
+.user-form {
+  display: grid;
+  gap: 10px;
+}
