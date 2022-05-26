@@ -62,15 +62,15 @@ textarea {
 input,
 select,
 textarea:invalid {
-  background-color: #ffdddd4f;
+  border-bottom: 3px solid #ffdddde1;
 }
 
 input:valid {
-  background-color: #ddffdd7a;
+  border-bottom: 3px solid #1cd41c2a;
 }
 
 select:valid {
-    background-color: #ddffdd7a;
+  border-bottom: 3px solid #1cd41c2a;
 }
 
 label {
